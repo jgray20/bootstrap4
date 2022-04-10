@@ -1,0 +1,257 @@
+/*   Navbar   */
+.navbar {
+    background-color: #fff!important;
+}
+.navbar #navbarMenu .nav-item .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar #navbarMenu .nav-item .nav-link:hover {
+    color: #6dad90;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+/*  Logo, Main Image  */
+
+.cw-header{
+    position: relative;
+}
+
+.cw-logo img{
+    position:absolute;
+    z-index: 1;
+    max-height:180px;
+    width:auto;
+    left:20%;
+}
+
+/*  Search Buttons  */
+
+
+.cw-btn-section .cw-border,
+.cw-staff .card-body{
+    box-shadow: 5px 5px 12px 1px #e6e6e6;
+    border-radius: 10px;
+ }
+
+.cw-btn-section a,
+p{
+    color:#1e1e1e;
+}
+.cw-btn-section p{
+    font-size: 13px;
+}
+
+
+    
+.cw-btn-section a i,
+.cw-btn-section a:hover,
+.cw-experience h4 span,
+.cw-staff h6 {
+     color:#6dad90;
+}
+
+.cw-btn-section h6,
+.cw-finance-text h5,
+.cw-finance-text h6,
+.cw-experience h4 span,
+.cw-appraisal .cw-upgrade,
+.cw-staff h6{
+    font-weight:600;
+}
+.cw-btn-section h6{
+    font-size:18px;
+}
+    
+ .cw-btn-section .cw-border:hover{
+     box-shadow: 5px 5px 12px 1px #ccc;
+}
+    
+.cw-btn-section a:hover{
+    text-decoration:none!important;
+}
+
+.cw-btn-section p{
+     margin-top: -5px;
+}
+
+/*  Finance  */
+
+.cw-finance-text h5{
+    font-size: 20px;
+}
+
+.cw-finance-text h6 {
+    background: #6dad90;
+    font-size: 26px;
+    color:#fff;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    margin:0 auto;
+}
+.cw-finance-text p{
+    font-size:16px;
+}
+.cw-finance-text .cw-steps{
+    text-align: center;
+}
+.cw-finance-text h6{
+    margin-top:15px;
+}
+
+
+/*Experience*/
+.cw-experience,
+footer{
+    background:#eef5f5;
+}
+.cw-experience h4 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:15px;
+}
+
+.cw-experience h4 span {
+    display: block;
+    font-size: 40px;
+}
+
+/*Staff*/
+
+.cw-staff .card{
+    width:auto;
+    border: none;
+}
+.cw-staff h6{
+    font-size: 20px;
+}
+.cw-staff p:nth-of-type(1){
+    font-style: italic;
+    margin-top:-10px;
+}
+
+
+/*  Appraisal / Upgrade  */
+
+.btn-primary,
+.btn-primary{
+    background:#c44434;
+    color:#fff;
+    border:#c44434 2px solid;
+}
+.btn-primary:hover,
+.btn-primary:hover{
+    background:#e56d5e;
+    border:#e56d5e 2px solid;
+}
+
+.cw-appraisal .cw-app-text{
+    text-align: center;
+}
+
+.cw-appraisal .cw-looking{
+    font-size:32px;
+    font-weight:300;
+    margin-bottom:-8px;
+}
+.cw-appraisal .cw-for{
+    font-size:15px;
+    margin-bottom:-8px;
+}
+.cw-appraisal .cw-upgrade{
+    font-size:32px;
+}
+.cw-appraisal .cw-team{
+    font-size:14px;
+}
+
+
+footer a{
+    text-transform: uppercase;
+    font-size:12px;
+    color:#1e1e1e;
+}
+footer a:hover{
+    color:#6dad90;
+    text-decoration: none;
+}
+footer p{
+    font-size:11px;
+}
+
+
+/*  Media Queries  */
+
+
+@media (min-width:481px) {
+    .cw-logo img{
+        top:2%;
+        left:19%;
+    }
+    .cw-finance-text h5{
+        font-size: 24px;
+    }
+    .cw-experience h4 {
+        font-size: 24px;
+    }
+  
+}
+
+@media (min-width:768px) {
+    .cw-finance-text .cw-steps{
+        text-align: left;
+    }
+    .cw-finance-text h5{
+        font-size: 20px;
+    }
+    .cw-finance-text h6{
+        margin-top:0;
+    }
+}
+@media (min-width:900px){
+    .cw-logo img{
+        top:5%;
+        left:30%;
+    }
+}
+
+@media (min-width:1024px){
+    .cw-logo img{
+        top:8%;
+        left:33%;
+    }
+    .cw-finance-text h5{
+        font-size: 27px;
+    }
+    .cw-finance-text p{
+        font-size:18px;
+    }
+    .cw-appraisal .cw-looking,
+    .cw-appraisal .cw-upgrade{
+        font-size:45px;
+    }
+    .cw-appraisal .cw-for{
+        font-size:20px;
+        margin-bottom:-5px;
+    }
+    .cw-appraisal .cw-team{
+        font-size:16px;
+    }
+}
+@media (min-width:1024px){
+    .cw-logo img{
+        left:40%;
+    }
+}
+    
+   
+
+
